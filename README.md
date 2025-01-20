@@ -24,7 +24,7 @@ Sigue estos pasos para instalar y correr la aplicación localmente:
 ### 1. Clona el repositorio
 
 ```bash
-git clone <URL DEL REPOSITORIO>
+git clone https://github.com/vuehara22/eur-dollar-conversion.git
 
 npm install
 
