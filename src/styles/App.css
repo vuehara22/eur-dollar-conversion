@@ -1,0 +1,164 @@
+/* General body styles */
+body {
+    margin: 0;
+    font-family: "Inter", serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #1A8DFF 50%, white 50%);
+  }
+  
+  /* App container */
+  .app {
+    text-align: center;
+    width: 100%;
+   
+  }
+  
+  /* Header styles */
+  .header {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #0E1342;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size:22px;
+    color: #fff;
+    text-align: left;
+    font-family: 10px;
+  }
+  .subheader{
+    color:#fff;
+    font-size:32px;
+    font-weight: 600;
+    
+  }
+  
+  /* Main content */
+  .main-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin:auto
+  }
+  
+  /* Card styles */
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  /* Input group */
+  .input-group-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px; 
+  }
+  
+  input,
+  select {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 279px;
+    
+  }
+  
+  /* Conversion result styles */
+  .conversion-result {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .conversion-result p {
+    margin: 5px 0;
+  }
+  
+  /* Information styles */
+  .info {
+    font-size: 14px;
+    background-color: #E8F3FF;
+    padding: 10px;
+    border-radius: 4px;
+    width: 50%;
+    margin-left: auto;
+  }
+  .last-updated p{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+  @media (max-width: 767px) {
+   
+    .info{
+        display: none;
+    }
+    .last-updated p{
+        text-align: left;
+        font-size: 12px;
+        font-weight: 300;
+      }
+      .conversion-result {
+        font-size: 24px;
+    }
+    .input-group-container {
+        flex-direction: column; 
+      }
+    
+      .input-group {
+        flex-direction: column; 
+      }
+      input, select {
+        padding: 10px;
+    
+    }
+        .exchange-icon {
+            margin-top: 16px; 
+            align-self: flex-start; 
+            margin-left: 0; 
+          }
+      
+    
+      
+      .input-group input {
+        width: 279px; 
+        margin: 0 auto; 
+        padding: 10px; 
+        box-sizing: border-box; 
+      }
+      .last-updated {
+        text-align: left; 
+        font-size: 14px;
+        color: gray;
+        margin-top: 20px; 
+        margin-left: 5%; 
+        width: 90%; 
+        margin-bottom: 20px; 
+      }
+  }

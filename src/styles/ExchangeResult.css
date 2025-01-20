@@ -1,0 +1,11 @@
+/* ExchangeResult.css */
+
+.exchange-result {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .exchange-result p {
+    margin: 5px 0;
+  }
